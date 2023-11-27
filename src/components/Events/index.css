@@ -1,0 +1,27 @@
+.events-container {
+  display: flex;
+}
+
+.events-data-container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  background-color: #3a4b63;
+  width: 50%;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.events-h1 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.event-item-ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
